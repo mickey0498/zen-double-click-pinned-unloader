@@ -1,0 +1,22 @@
+{
+  "id": "zen-double-click-pinned-unloader",
+  "name": "Double-Click Pinned Unloader",
+  "description": "In Zen Compact Mode, hover a pinned tab in a Space to reveal a small unload button that unloads it from memory without removing it from the Space.",
+  "homepage": "https://github.com/mickey0498/zen-double-click-pinned-unloader",
+  "scripts": {
+    "pinned-tab-unload-button.uc.js": {
+      "include": [
+        "chrome://browser/content/browser.xhtml"
+      ]
+    }
+  },
+  "author": "mickey0498",
+  "version": "2.0.1",
+  "tags": [
+    "Tabs",
+    "Pinned Tabs",
+    "Compact Mode"
+  ],
+  "createdAt": "2026-09-04",
+  "updatedAt": "2026-09-05"
+}
